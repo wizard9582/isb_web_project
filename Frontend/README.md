@@ -23,7 +23,7 @@ src
 ├── components
 │		├── commmon
 │		│   ├── MyPage.vue
-│		│   ├── Nav.vue
+│		│   ├── SideNav.vue
 │		│   └── 
 │		├── community
 │		│   ├── 
@@ -39,8 +39,8 @@ src
 │		    └── LogoutPop.vue
 ├── views
 │		├── HomeView.vue
-│		├── CSView.vue
-│		└── CommunityView.vue
+│		├── ErrorView.vue
+│		└── 
 ├── App.vue         ---vue 프로젝트 base APP, 테마나 기본 설정
 README.md           ---프로젝트 소개 및 설명
 vite.config.ts      ---vite설정 ts파일

@@ -1,9 +1,8 @@
 <script setup lang="ts">
-
 </script>
 
 <template>
   <main>
-    <router-view :key="$route.fullPath"/>
+    404 Not Found
   </main>
 </template>
