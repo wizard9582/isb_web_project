@@ -14,6 +14,7 @@ const router = createRouter({
       name: "home",
       component: HomeView,
       children: [
+        {path: "", component:DailyPage, meta:{loginRequired: false}},
         {path: "daily", component:DailyPage , meta:{loginRequired: false}},
         {path: "study", component:StudyPage , meta:{loginRequired: false}},
         {path: "test", component:TestPage , meta:{loginRequired: false}},
