@@ -28,8 +28,8 @@
 </script>
 
 <template>
-    <div class="h-screen">
-        <div class="h-1/5 fixed left-0 top-0 cursor-pointer">
+    <div>
+        <div class="h-1/5 w-1/12 fixed left-0 top-0 cursor-pointer bg-gray-100">
             <img src="@/assets/logo.svg" alt="logo" class="h-1/3 m-4" @click="clickLogo()">
         </div>
         <div class="h-5/6 w-1/12 fixed bottom-0 left-0 ">
